@@ -166,7 +166,9 @@ def select_action(state):
             # t.max(1) will return largest column value of each row.
             # second column on max result is index of where max element was
             # found, so we pick action with the larger expected reward.
-            return policy_net(state).max(1)[1].view(1, 1)
+            temp = policy_net(state)
+            print(temp)
+            return temp.max(1)[1].view(1, 1)
     else:
         return torch.tensor(
             [[random.randrange(n_actions)]], device=device, dtype=torch.long
@@ -220,8 +222,10 @@ def optimize_model():
     # Compute Q(s_t, a) - the model computes Q(s_t), then we select the
     # columns of actions taken. These are the actions which would've been taken
     # for each batch state according to policy_net
+    print('action batch sahpe', action_batch.shape)
+    print('state batch shape', state_batch.shape)
     state_action_values = policy_net(state_batch).gather(1, action_batch)
-
+    print('after gather', state_action_values.shape)
     # Compute V(s_{t+1}) for all next states.
     # Expected values of actions for non_final_next_states are computed based
     # on the "older" target_net; selecting their best reward with max(1)[0].
@@ -247,7 +251,7 @@ def optimize_model():
     optimizer.step()
 
 
-num_episodes = 0
+num_episodes = 10
 for i_episode in range(num_episodes):
     # Initialize the environment and state
     env.reset()
@@ -287,7 +291,5 @@ for i_episode in range(num_episodes):
 print("Complete")
 env.render()
 env.close()
-plt.ioff()
-plt.show()
-
-# %%
+#plt.ioff()
+#plt.show()
