@@ -1,3 +1,4 @@
+# %%
 import gym
 import math
 import random
@@ -14,7 +15,7 @@ import torch.optim as optim
 import torch.nn.functional as F
 import torchvision.transforms as T
 
-
+# %%
 env = gym.make("CartPole-v0").unwrapped
 
 is_ipython = "inline" in matplotlib.get_backend()
@@ -25,7 +26,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 Transition = namedtuple("Transition", ("state", "action", "next_state", "reward"))
 
-
+# %%
 class ReplayMemory(object):
     def __init__(self, capacity):
         self.capacity = capacity
@@ -45,7 +46,7 @@ class ReplayMemory(object):
     def __len__(self):
         return len(self.memory)
 
-
+# %%
 class DQN(nn.Module):
     def __init__(self, h, w, outputs):
         super(DQN, self).__init__()
@@ -75,10 +76,10 @@ class DQN(nn.Module):
         x = F.relu(self.bn3(self.conv3(x)))
         return self.head(x.view(x.size(0), -1))
 
-
+# %%
 resize = T.Compose([T.ToPILImage(), T.Resize(40, interpolation=Image.CUBIC), T.ToTensor()])
 
-
+# %%
 def get_cart_location(screen_width):
     world_width = env.x_threshold * 2
     scale = screen_width / world_width
@@ -111,14 +112,14 @@ def get_screen():
     # Resize, and add a batch dimension (BCHW)
     return resize(screen).unsqueeze(0).to(device)
 
-
+# %%
 env.reset()
 plt.figure()
 plt.imshow(get_screen().cpu().squeeze(0).permute(1, 2, 0).numpy(), interpolation="none")
 plt.title("Example extracted screen")
 plt.show()
 
-
+# %%
 BATCH_SIZE = 128
 GAMMA = 0.999
 EPS_START = 0.9
@@ -129,9 +130,15 @@ TARGET_UPDATE = 10
 # Get screen size so that we can initialize layers correctly based on shape
 # returned from AI gym. Typical dimensions at this point are close to 3x40x90
 # which is the result of a clamped and down-scaled render buffer in get_screen()
+# %%
 init_screen = get_screen()
 _, _, screen_height, screen_width = init_screen.shape
+s1 = get_screen()
+s2 = get_screen()
+st = s2 - s1
+print(st.shape)
 
+# %%
 # Get number of actions from gym action space
 n_actions = env.action_space.n
 
@@ -240,7 +247,7 @@ def optimize_model():
     optimizer.step()
 
 
-num_episodes = 300
+num_episodes = 0
 for i_episode in range(num_episodes):
     # Initialize the environment and state
     env.reset()
@@ -282,3 +289,5 @@ env.render()
 env.close()
 plt.ioff()
 plt.show()
+
+# %%
