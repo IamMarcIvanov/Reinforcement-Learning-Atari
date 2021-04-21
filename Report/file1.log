@@ -1,0 +1,646 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.3.12)  21 APR 2021 19:04
+entering extended mode
+**"d:/Mimisbrunnr/Github Repositories/Reinforcement-Learning-Atari/Report/file1.tex"
+(d:/Mimisbrunnr/Github Repositories/Reinforcement-Learning-Atari/Report/file1.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-02-18> xparse <2020-03-03> (D:\Pandora's Box\Installations\Miktex\tex/latex/base\report.cls
+Document Class: report 2020/04/10 v1.4m Standard LaTeX document class
+(D:\Pandora's Box\Installations\Miktex\tex/latex/base\size12.clo
+File: size12.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+)
+\c@part=\count179
+\c@chapter=\count180
+\c@section=\count181
+\c@subsection=\count182
+\c@subsubsection=\count183
+\c@paragraph=\count184
+\c@subparagraph=\count185
+\c@figure=\count186
+\c@table=\count187
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+) (D:\Pandora's Box\Installations\Miktex\tex/latex/graphics\graphicx.sty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+ (D:\Pandora's Box\Installations\Miktex\tex/latex/graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+) (D:\Pandora's Box\Installations\Miktex\tex/latex/graphics\graphics.sty
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+ (D:\Pandora's Box\Installations\Miktex\tex/latex/graphics\trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (D:\Pandora's Box\Installations\Miktex\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+ (D:\Pandora's Box\Installations\Miktex\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen139
+\Gin@req@width=\dimen140
+) (D:\Pandora's Box\Installations\Miktex\tex/latex/setspace\setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+) (D:\Pandora's Box\Installations\Miktex\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+ (D:\Pandora's Box\Installations\Miktex\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+ (D:\Pandora's Box\Installations\Miktex\tex/latex/graphics\dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+)) (D:\Pandora's Box\Installations\Miktex\tex/latex/biblatex\biblatex.sty
+Package: biblatex 2020/12/31 v3.16 programmable bibliographies (PK/MW)
+ (D:\Pandora's Box\Installations\Miktex\tex/generic/pdftexcmds\pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (D:\Pandora's Box\Installations\Miktex\tex/generic/infwarerr\infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (D:\Pandora's Box\Installations\Miktex\tex/generic/iftex\iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+) (D:\Pandora's Box\Installations\Miktex\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+) (D:\Pandora's Box\Installations\Miktex\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count188
+) (D:\Pandora's Box\Installations\Miktex\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+ (D:\Pandora's Box\Installations\Miktex\tex/generic/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)) (D:\Pandora's Box\Installations\Miktex\tex/latex/logreq\logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count189
+ (D:\Pandora's Box\Installations\Miktex\tex/latex/logreq\logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+)) (D:\Pandora's Box\Installations\Miktex\tex/latex/base\ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+) (D:\Pandora's Box\Installations\Miktex\tex/latex/url\url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+\c@tabx@nest=\count190
+\c@listtotal=\count191
+\c@listcount=\count192
+\c@liststart=\count193
+\c@liststop=\count194
+\c@citecount=\count195
+\c@citetotal=\count196
+\c@multicitecount=\count197
+\c@multicitetotal=\count198
+\c@instcount=\count199
+\c@maxnames=\count266
+\c@minnames=\count267
+\c@maxitems=\count268
+\c@minitems=\count269
+\c@citecounter=\count270
+\c@maxcitecounter=\count271
+\c@savedcitecounter=\count272
+\c@uniquelist=\count273
+\c@uniquename=\count274
+\c@refsection=\count275
+\c@refsegment=\count276
+\c@maxextratitle=\count277
+\c@maxextratitleyear=\count278
+\c@maxextraname=\count279
+\c@maxextradate=\count280
+\c@maxextraalpha=\count281
+\c@abbrvpenalty=\count282
+\c@highnamepenalty=\count283
+\c@lownamepenalty=\count284
+\c@maxparens=\count285
+\c@parenlevel=\count286
+\blx@tempcnta=\count287
+\blx@tempcntb=\count288
+\blx@tempcntc=\count289
+\blx@maxsection=\count290
+\blx@maxsegment@0=\count291
+\blx@notetype=\count292
+\blx@parenlevel@text=\count293
+\blx@parenlevel@foot=\count294
+\blx@sectionciteorder@0=\count295
+\blx@entrysetcounter=\count296
+\blx@biblioinstance=\count297
+\labelnumberwidth=\skip49
+\labelalphawidth=\skip50
+\biblabelsep=\skip51
+\bibitemsep=\skip52
+\bibnamesep=\skip53
+\bibinitsep=\skip54
+\bibparsep=\skip55
+\bibhang=\skip56
+\blx@bcfin=\read2
+\blx@bcfout=\write3
+\blx@langwohyphens=\language79
+\c@mincomprange=\count298
+\c@maxcomprange=\count299
+\c@mincompwidth=\count300
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+ (D:\Pandora's Box\Installations\Miktex\tex/latex/biblatex\blx-dm.def
+File: blx-dm.def 2020/12/31 v3.16 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'numeric.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count301
+\c@savedafterword=\count302
+\c@annotator=\count303
+\c@savedannotator=\count304
+\c@author=\count305
+\c@savedauthor=\count306
+\c@bookauthor=\count307
+\c@savedbookauthor=\count308
+\c@commentator=\count309
+\c@savedcommentator=\count310
+\c@editor=\count311
+\c@savededitor=\count312
+\c@editora=\count313
+\c@savededitora=\count314
+\c@editorb=\count315
+\c@savededitorb=\count316
+\c@editorc=\count317
+\c@savededitorc=\count318
+\c@foreword=\count319
+\c@savedforeword=\count320
+\c@holder=\count321
+\c@savedholder=\count322
+\c@introduction=\count323
+\c@savedintroduction=\count324
+\c@namea=\count325
+\c@savednamea=\count326
+\c@nameb=\count327
+\c@savednameb=\count328
+\c@namec=\count329
+\c@savednamec=\count330
+\c@translator=\count331
+\c@savedtranslator=\count332
+\c@shortauthor=\count333
+\c@savedshortauthor=\count334
+\c@shorteditor=\count335
+\c@savedshorteditor=\count336
+\c@labelname=\count337
+\c@savedlabelname=\count338
+\c@institution=\count339
+\c@savedinstitution=\count340
+\c@lista=\count341
+\c@savedlista=\count342
+\c@listb=\count343
+\c@savedlistb=\count344
+\c@listc=\count345
+\c@savedlistc=\count346
+\c@listd=\count347
+\c@savedlistd=\count348
+\c@liste=\count349
+\c@savedliste=\count350
+\c@listf=\count351
+\c@savedlistf=\count352
+\c@location=\count353
+\c@savedlocation=\count354
+\c@organization=\count355
+\c@savedorganization=\count356
+\c@origlocation=\count357
+\c@savedoriglocation=\count358
+\c@origpublisher=\count359
+\c@savedorigpublisher=\count360
+\c@publisher=\count361
+\c@savedpublisher=\count362
+\c@language=\count363
+\c@savedlanguage=\count364
+\c@origlanguage=\count365
+\c@savedoriglanguage=\count366
+\c@pageref=\count367
+\c@savedpageref=\count368
+\shorthandwidth=\skip57
+\shortjournalwidth=\skip58
+\shortserieswidth=\skip59
+\shorttitlewidth=\skip60
+\shortauthorwidth=\skip61
+\shorteditorwidth=\skip62
+\locallabelnumberwidth=\skip63
+\locallabelalphawidth=\skip64
+\localshorthandwidth=\skip65
+\localshortjournalwidth=\skip66
+\localshortserieswidth=\skip67
+\localshorttitlewidth=\skip68
+\localshortauthorwidth=\skip69
+\localshorteditorwidth=\skip70
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+ (D:\Pandora's Box\Installations\Miktex\tex/latex/biblatex\blx-compat.def
+File: blx-compat.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+ (D:\Pandora's Box\Installations\Miktex\tex/latex/biblatex\biblatex.def
+File: biblatex.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
+\c@textcitecount=\count369
+\c@textcitetotal=\count370
+\c@textcitemaxnames=\count371
+\c@biburlbigbreakpenalty=\count372
+\c@biburlbreakpenalty=\count373
+\c@biburlnumpenalty=\count374
+\c@biburlucpenalty=\count375
+\c@biburllcpenalty=\count376
+\biburlbigskip=\muskip17
+\biburlnumskip=\muskip18
+\biburlucskip=\muskip19
+\biburllcskip=\muskip20
+\c@smartand=\count377
+)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+ (D:\Pandora's Box\Installations\Miktex\tex/latex/biblatex/bbx\numeric.bbx
+File: numeric.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+ (D:\Pandora's Box\Installations\Miktex\tex/latex/biblatex/bbx\standard.bbx
+File: standard.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count378
+\c@bbx:relatedtotal=\count379
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+ (D:\Pandora's Box\Installations\Miktex\tex/latex/biblatex/cbx\numeric.cbx
+File: numeric.cbx 2020/12/31 v3.16 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+ (D:\Pandora's Box\Installations\Miktex\tex/latex/biblatex\biblatex.cfg
+File: biblatex.cfg 
+)) (D:\Pandora's Box\Installations\Miktex\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2021-02-10 v7.00j Hypertext links for LaTeX
+ (D:\Pandora's Box\Installations\Miktex\tex/generic/kvdefinekeys\kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (D:\Pandora's Box\Installations\Miktex\tex/generic/pdfescape\pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (D:\Pandora's Box\Installations\Miktex\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (D:\Pandora's Box\Installations\Miktex\tex/latex/letltxmacro\letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+) (D:\Pandora's Box\Installations\Miktex\tex/latex/auxhook\auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+\@linkdim=\dimen141
+\Hy@linkcounter=\count380
+\Hy@pagecounter=\count381
+ (D:\Pandora's Box\Installations\Miktex\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2021-02-10 v7.00j Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) (D:\Pandora's Box\Installations\Miktex\tex/latex/hyperref\hyperref-langpatches.def
+File: hyperref-langpatches.def 2021-02-10 v7.00j Hyperref: patches for babel languages
+) (D:\Pandora's Box\Installations\Miktex\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+) (D:\Pandora's Box\Installations\Miktex\tex/generic/etexcmds\etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count382
+ (D:\Pandora's Box\Installations\Miktex\tex/latex/hyperref\puenc.def
+File: puenc.def 2021-02-10 v7.00j Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4192.
+Package hyperref Info: Link nesting OFF on input line 4197.
+Package hyperref Info: Hyper index ON on input line 4200.
+Package hyperref Info: Plain pages OFF on input line 4207.
+Package hyperref Info: Backreferencing OFF on input line 4212.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4445.
+\c@Hy@tempcnt=\count383
+LaTeX Info: Redefining \url on input line 4804.
+\XeTeXLinkMargin=\dimen142
+ (D:\Pandora's Box\Installations\Miktex\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+ (D:\Pandora's Box\Installations\Miktex\tex/generic/bigintcalc\bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+))
+\Fld@menulength=\count384
+\Field@Width=\dimen143
+\Fld@charsize=\dimen144
+Package hyperref Info: Hyper figures OFF on input line 6075.
+Package hyperref Info: Link nesting OFF on input line 6080.
+Package hyperref Info: Hyper index ON on input line 6083.
+Package hyperref Info: backreferencing OFF on input line 6090.
+Package hyperref Info: Link coloring OFF on input line 6095.
+Package hyperref Info: Link coloring with OCG OFF on input line 6100.
+Package hyperref Info: PDF/A mode OFF on input line 6105.
+LaTeX Info: Redefining \ref on input line 6145.
+LaTeX Info: Redefining \pageref on input line 6149.
+ (D:\Pandora's Box\Installations\Miktex\tex/latex/base\atbegshi-ltx.sty
+Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi package
+with kernel methods
+)
+\Hy@abspage=\count385
+\c@Item=\count386
+\c@Hfootnote=\count387
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (D:\Pandora's Box\Installations\Miktex\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2021-02-10 v7.00j Hyperref driver for pdfTeX
+ (D:\Pandora's Box\Installations\Miktex\tex/latex/base\atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery package
+with kernel methods
+)
+\Fld@listcount=\count388
+\c@bookmark@seq@number=\count389
+ (D:\Pandora's Box\Installations\Miktex\tex/latex/rerunfilecheck\rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+ (D:\Pandora's Box\Installations\Miktex\tex/generic/uniquecounter\uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 286.
+)
+\Hy@SectionHShift=\skip71
+) (D:\Pandora's Box\Installations\Miktex\tex/latex/caption\subcaption.sty
+Package: subcaption 2020/10/07 v1.3j Sub-captions (AR)
+ (D:\Pandora's Box\Installations\Miktex\tex/latex/caption\caption.sty
+Package: caption 2020/10/26 v3.5g Customizing captions (AR)
+ (D:\Pandora's Box\Installations\Miktex\tex/latex/caption\caption3.sty
+Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
+\captionmargin=\dimen145
+\captionmargin@=\dimen146
+\captionwidth=\dimen147
+\caption@tempdima=\dimen148
+\caption@indent=\dimen149
+\caption@parindent=\dimen150
+\caption@hangindent=\dimen151
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count390
+\c@continuedfloat=\count391
+Package caption Info: hyperref package is loaded.
+)
+\c@subfigure=\count392
+\c@subtable=\count393
+)
+\@quotelevel=\count394
+\@quotereset=\count395
+ (D:\Pandora's Box\Installations\Miktex\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2021-02-18 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count396
+\l__pdf_internal_box=\box47
+) (d:/Mimisbrunnr\Github Repositories\Reinforcement-Learning-Atari\Report\file1.aux)
+\openout1 = `file1.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+ (D:\Pandora's Box\Installations\Miktex\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count397
+\scratchdimen=\dimen152
+\scratchbox=\box48
+\nofMPsegments=\count398
+\nofMParguments=\count399
+\everyMPshowfont=\toks16
+\MPscratchCnt=\count400
+\MPscratchDim=\dimen153
+\MPnumerator=\count401
+\makeMPintoPDFobject=\count402
+\everyMPtoPDFconversion=\toks17
+) (D:\Pandora's Box\Installations\Miktex\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+)
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+ (D:\Pandora's Box\Installations\Miktex\tex/latex/biblatex/lbx\english.lbx
+File: english.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+Package biblatex Info: Document encoding is UTF8 ....
+ (D:\Pandora's Box\Installations\Miktex\tex/latex/l3kernel\expl3.sty
+Package: expl3 2021-02-18 L3 programming layer (loader) 
+)
+Package biblatex Info: ... and expl3
+(biblatex)             2021-02-18 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+ (D:\Pandora's Box\Installations\Miktex\tex/latex/biblatex\blx-case-expl3.sty (D:\Pandora's Box\Installations\Miktex\tex/latex/l3packages/xparse\xparse.sty
+Package: xparse 2020-10-27 L3 Experimental document command parser
+ (D:\Pandora's Box\Installations\Miktex\tex/latex/l3packages/xparse\xparse-generic.tex))
+Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
+)
+\openout3 = `file1.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'file1.bbl' found.
+ (d:/Mimisbrunnr\Github Repositories\Reinforcement-Learning-Atari\Report\file1.bbl)
+Package biblatex Info: Reference section=0 on input line 26.
+Package biblatex Info: Reference segment=0 on input line 26.
+Package hyperref Info: Link coloring OFF on input line 26.
+ (D:\Pandora's Box\Installations\Miktex\tex/latex/hyperref\nameref.sty
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
+ (D:\Pandora's Box\Installations\Miktex\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (D:\Pandora's Box\Installations\Miktex\tex/generic/gettitlestring\gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count403
+)
+LaTeX Info: Redefining \ref on input line 26.
+LaTeX Info: Redefining \pageref on input line 26.
+LaTeX Info: Redefining \nameref on input line 26.
+ (d:/Mimisbrunnr\Github Repositories\Reinforcement-Learning-Atari\Report\file1.out) (d:/Mimisbrunnr\Github Repositories\Reinforcement-Learning-Atari\Report\file1.out)
+\@outlinefile=\write4
+\openout4 = `file1.out'.
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+<D:/Mimisbrunnr/Github Repositories/Reinforcement-Learning-Atari/Images//BPHC.png, id=39, 401.5pt x 401.5pt>
+File: D:/Mimisbrunnr/Github Repositories/Reinforcement-Learning-Atari/Images//BPHC.png Graphic file (type png)
+<use D:/Mimisbrunnr/Github Repositories/Reinforcement-Learning-Atari/Images//BPHC.png>
+Package pdftex.def Info: D:/Mimisbrunnr/Github Repositories/Reinforcement-Learning-Atari/Images//BPHC.png  used on input line 56.
+(pdftex.def)             Requested size: 155.99762pt x 156.00235pt.
+ [1
+
+{C:/Users/lordh/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <D:/Mimisbrunnr/Github Repositories/Reinforcement-Learning-Atari/Images//BPHC.png>] (d:/Mimisbrunnr\Github Repositories\Reinforcement-Learning-Atari\Report\file1.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 5.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 5.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 5.
+)
+\tf@toc=\write5
+\openout5 = `file1.toc'.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.67     \listoffigures
+                        [1
+
+] (d:/Mimisbrunnr\Github Repositories\Reinforcement-Learning-Atari\Report\file1.lof)
+\tf@lof=\write6
+\openout6 = `file1.lof'.
+
+ [2
+
+]
+Chapter 1.
+<D:/Mimisbrunnr/Github Repositories/Reinforcement-Learning-Atari/Images//frame-reward.jpg, id=77, 462.528pt x 346.896pt>
+File: D:/Mimisbrunnr/Github Repositories/Reinforcement-Learning-Atari/Images//frame-reward.jpg Graphic file (type jpg)
+<use D:/Mimisbrunnr/Github Repositories/Reinforcement-Learning-Atari/Images//frame-reward.jpg>
+Package pdftex.def Info: D:/Mimisbrunnr/Github Repositories/Reinforcement-Learning-Atari/Images//frame-reward.jpg  used on input line 77.
+(pdftex.def)             Requested size: 155.99762pt x 117.00089pt.
+
+Underfull \hbox (badness 1043) in paragraph at lines 78--78
+[]\OT1/cmr/m/n/10.95 (a) |A plot of the num-ber of
+ []
+
+<D:/Mimisbrunnr/Github Repositories/Reinforcement-Learning-Atari/Images//frame-epsilon.jpg, id=78, 462.528pt x 346.896pt>
+File: D:/Mimisbrunnr/Github Repositories/Reinforcement-Learning-Atari/Images//frame-epsilon.jpg Graphic file (type jpg)
+<use D:/Mimisbrunnr/Github Repositories/Reinforcement-Learning-Atari/Images//frame-epsilon.jpg>
+Package pdftex.def Info: D:/Mimisbrunnr/Github Repositories/Reinforcement-Learning-Atari/Images//frame-epsilon.jpg  used on input line 83.
+(pdftex.def)             Requested size: 155.99762pt x 117.00089pt.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 84.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[3
+
+]
+<D:/Mimisbrunnr/Github Repositories/Reinforcement-Learning-Atari/Images//Model.jpg, id=83, 1190.4475pt x 385.44pt>
+File: D:/Mimisbrunnr/Github Repositories/Reinforcement-Learning-Atari/Images//Model.jpg Graphic file (type jpg)
+<use D:/Mimisbrunnr/Github Repositories/Reinforcement-Learning-Atari/Images//Model.jpg>
+Package pdftex.def Info: D:/Mimisbrunnr/Github Repositories/Reinforcement-Learning-Atari/Images//Model.jpg  used on input line 98.
+(pdftex.def)             Requested size: 390.0pt x 126.27222pt.
+<D:/Mimisbrunnr/Github Repositories/Reinforcement-Learning-Atari/Images//Encoder-Decoder.png, id=84, 689.57625pt x 679.78969pt>
+File: D:/Mimisbrunnr/Github Repositories/Reinforcement-Learning-Atari/Images//Encoder-Decoder.png Graphic file (type png)
+<use D:/Mimisbrunnr/Github Repositories/Reinforcement-Learning-Atari/Images//Encoder-Decoder.png>
+Package pdftex.def Info: D:/Mimisbrunnr/Github Repositories/Reinforcement-Learning-Atari/Images//Encoder-Decoder.png  used on input line 104.
+(pdftex.def)             Requested size: 390.0pt x 384.46568pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<D:/Mimisbrunnr/Github Repositories/Reinforcement-Learning-Atari/Images//video-frame-reconstruction-loss.png, id=85, 521.95pt x 371.3875pt>
+File: D:/Mimisbrunnr/Github Repositories/Reinforcement-Learning-Atari/Images//video-frame-reconstruction-loss.png Graphic file (type png)
+<use D:/Mimisbrunnr/Github Repositories/Reinforcement-Learning-Atari/Images//video-frame-reconstruction-loss.png>
+Package pdftex.def Info: D:/Mimisbrunnr/Github Repositories/Reinforcement-Learning-Atari/Images//video-frame-reconstruction-loss.png  used on input line 115.
+(pdftex.def)             Requested size: 390.0pt x 277.50288pt.
+<D:/Mimisbrunnr/Github Repositories/Reinforcement-Learning-Atari/Images//reconstruction-loss-in-paper.png, id=86, 754.017pt x 266.1945pt>
+File: D:/Mimisbrunnr/Github Repositories/Reinforcement-Learning-Atari/Images//reconstruction-loss-in-paper.png Graphic file (type png)
+<use D:/Mimisbrunnr/Github Repositories/Reinforcement-Learning-Atari/Images//reconstruction-loss-in-paper.png>
+Package pdftex.def Info: D:/Mimisbrunnr/Github Repositories/Reinforcement-Learning-Atari/Images//reconstruction-loss-in-paper.png  used on input line 121.
+(pdftex.def)             Requested size: 390.0pt x 137.68268pt.
+[4 <D:/Mimisbrunnr/Github Repositories/Reinforcement-Learning-Atari/Images//frame-reward.jpg> <D:/Mimisbrunnr/Github Repositories/Reinforcement-Learning-Atari/Images//frame-epsilon.jpg>]
+
+LaTeX Warning: Text page 5 contains only floats.
+
+[5 <D:/Mimisbrunnr/Github Repositories/Reinforcement-Learning-Atari/Images//Model.jpg> <D:/Mimisbrunnr/Github Repositories/Reinforcement-Learning-Atari/Images//Encoder-Decoder.png>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<D:/Mimisbrunnr/Github Repositories/Reinforcement-Learning-Atari/Images//median-reward-seaquest.png, id=100, 549.252pt x 529.98pt>
+File: D:/Mimisbrunnr/Github Repositories/Reinforcement-Learning-Atari/Images//median-reward-seaquest.png Graphic file (type png)
+<use D:/Mimisbrunnr/Github Repositories/Reinforcement-Learning-Atari/Images//median-reward-seaquest.png>
+Package pdftex.def Info: D:/Mimisbrunnr/Github Repositories/Reinforcement-Learning-Atari/Images//median-reward-seaquest.png  used on input line 133.
+(pdftex.def)             Requested size: 117.00119pt x 112.89218pt.
+<D:/Mimisbrunnr/Github Repositories/Reinforcement-Learning-Atari/Images//median-reward-error.png, id=101, 462.528pt x 346.896pt>
+File: D:/Mimisbrunnr/Github Repositories/Reinforcement-Learning-Atari/Images//median-reward-error.png Graphic file (type png)
+<use D:/Mimisbrunnr/Github Repositories/Reinforcement-Learning-Atari/Images//median-reward-error.png>
+Package pdftex.def Info: D:/Mimisbrunnr/Github Repositories/Reinforcement-Learning-Atari/Images//median-reward-error.png  used on input line 138.
+(pdftex.def)             Requested size: 140.40106pt x 105.3029pt.
+
+Overfull \hbox (23.39987pt too wide) in paragraph at lines 138--139
+ [][] 
+ []
+
+<D:/Mimisbrunnr/Github Repositories/Reinforcement-Learning-Atari/Images//median-reward-space-invaders.png, id=102, 564.30824pt x 542.025pt>
+File: D:/Mimisbrunnr/Github Repositories/Reinforcement-Learning-Atari/Images//median-reward-space-invaders.png Graphic file (type png)
+<use D:/Mimisbrunnr/Github Repositories/Reinforcement-Learning-Atari/Images//median-reward-space-invaders.png>
+Package pdftex.def Info: D:/Mimisbrunnr/Github Repositories/Reinforcement-Learning-Atari/Images//median-reward-space-invaders.png  used on input line 144.
+(pdftex.def)             Requested size: 117.00119pt x 112.38124pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[6]
+
+LaTeX Warning: Text page 7 contains only floats.
+
+[7 <D:/Mimisbrunnr/Github Repositories/Reinforcement-Learning-Atari/Images//video-frame-reconstruction-loss.png> <D:/Mimisbrunnr/Github Repositories/Reinforcement-Learning-Atari/Images//reconstruction-loss-in-paper.png>] [8 <D:/Mimisbrunnr/Github Repositories/Reinforcement-Learning-Atari/Images//median-reward-seaquest.png> <D:/Mimisbrunnr/Github Repositories/Reinforcement-Learning-Atari/Images//median-reward-error.png> <D:/Mimisbrunnr/Github Repositories/Reinforcement-Learning-Atari/Images//median-reward-space-invaders.png>]
+Chapter 2.
+<D:/Mimisbrunnr/Github Repositories/Reinforcement-Learning-Atari/Images//vae.png, id=121, 521.95pt x 371.3875pt>
+File: D:/Mimisbrunnr/Github Repositories/Reinforcement-Learning-Atari/Images//vae.png Graphic file (type png)
+<use D:/Mimisbrunnr/Github Repositories/Reinforcement-Learning-Atari/Images//vae.png>
+Package pdftex.def Info: D:/Mimisbrunnr/Github Repositories/Reinforcement-Learning-Atari/Images//vae.png  used on input line 156.
+(pdftex.def)             Requested size: 390.0pt x 277.50288pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[9
+
+] [10 <D:/Mimisbrunnr/Github Repositories/Reinforcement-Learning-Atari/Images//vae.png>]
+Chapter 3.
+[11
+
+]
+Chapter 4.
+[12
+
+] (d:/Mimisbrunnr\Github Repositories\Reinforcement-Learning-Atari\Report\file1.aux)
+Package rerunfilecheck Info: File `file1.out' has not changed.
+(rerunfilecheck)             Checksum: 634234876E2596CCE854C7B4482B5208;1346.
+Package logreq Info: Writing requests to 'file1.run.xml'.
+\openout1 = `file1.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 16665 strings out of 479334
+ 292687 string characters out of 2860352
+ 1010625 words of memory out of 3000000
+ 33911 multiletter control sequences out of 15000+200000
+ 410155 words of font info for 49 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 71i,9n,77p,1118b,759s stack positions out of 5000i,500n,10000p,200000b,50000s
+<D:/Pandora's Box/Installations/Miktex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Pandora's Box/Installations/Miktex/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><D:/Pandora's Box/Installations/Miktex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/Pandora's Box/Installations/Miktex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Pandora's Box/Installations/Miktex/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Pandora's Box/Installations/Miktex/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on "d:/Mimisbrunnr\Github Repositories\Reinforcement-Learning-Atari\Report\file1.pdf" (13 pages, 561351 bytes).
+PDF statistics:
+ 173 PDF objects out of 1000 (max. 8388607)
+ 33 named destinations out of 1000 (max. 500000)
+ 128 words of extra memory for PDF output out of 10000 (max. 10000000)
+

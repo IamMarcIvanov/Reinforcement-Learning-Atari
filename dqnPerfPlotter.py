@@ -31,11 +31,13 @@ with open('BestYetDQNoutput.txt', 'r') as f:
         epsilons.append(float(line[epsilon_start: epsilon_end]))
 
 # %%
-plt.plot(frames[:-1], rewards, label='reward')
+plt.plot(frames, rewards, label='reward')
 plt.legend()
 plt.title('Best Yet DQN Performance: Frames vs Rewards')
+plt.savefig('frame-reward.jpg')
 plt.show()
-plt.plot(frames[:-1], epsilons, label='epsilon')
+plt.plot(frames, epsilons, label='epsilon')
 plt.legend()
 plt.title('Best Yet DQN Performance: Frames vs Epsilon')
+plt.savefig('frame-epsilon.jpg')
 plt.show()

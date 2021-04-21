@@ -1,0 +1,25 @@
+1. Your results (and not copied from the paper) on the proposed implementation of the paper. if you are not successful to obtain the results, 
+please write the justification.
+
+2. Results on your proposed change/innovation. Again, if you are not successful, please write the justification.
+
+3. Experiments you have conducted so far.
+
+4. Main findings and accomplishments of your final project.
+
+5. Last page describing again which group member was responsible for which task. 
+You can write this in a tabular form.
+
+2. 10-12 minutes team video presentation on steps 5 and 6.
+Focusing on the problem statements and demonstration of results in steps 5 and 6 
+
+1. Paper Implementation
+There were two parts to the paper implementation:
+    1. Create  
+    Get the training data by creating a DQN. 
+    2. Create the autoencoder
+2. Results
+3. Innovation Implementation
+4. Innovation Results
+5. Findings and Accomplishments
+6. Members and Responsibilities
