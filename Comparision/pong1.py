@@ -1,26 +1,6 @@
-import gym
-import math
-import random
-import numpy as np
-import matplotlib
-import matplotlib.pyplot as plt
-from collections import namedtuple
-from itertools import count
-from PIL import Image
-
-import torch
-import torch.nn as nn
-import torch.optim as optim
-import torch.nn.functional as F
-import torchvision.transforms as T
-from torchvision.transforms.functional import InterpolationMode
-
-
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 env = gym.make("Pong-v0")
 
-Transition = namedtuple("Transition", 
-                        ("state", "action", "next_state", "reward"))
+Transition = namedtuple("Transition", ("state", "action", "next_state", "reward"))
 
 
 class ReplayMemory(object):
@@ -61,7 +41,8 @@ class DQN(nn.Module):
             return nn.Sequential(
                 nn.Linear(inDim, outDim),
                 nn.BatchNorm2d(outDim),
-                nn.LeakyReLU())
+                nn.LeakyReLU()
+        )
 
         self.conv1 = convBlock(1, 32, kernel_size=8, stride=4)
         self.conv2 = convBlock(32, 64, kernel_size=4, stride=2)
@@ -77,16 +58,14 @@ class DQN(nn.Module):
         out = self.conv1(x)
         out = self.conv2(out)
         out = self.conv3(out)
-        out = out.view(out.size(0), -1)
+        out = out.view(out.size()[0], -1)
         out = self.fc1(out)
         out = self.fc2(out)
         return out
 
-
 resize = T.Compose([T.ToPILImage(), 
                     T.Grayscale(), 
-                    T.Resize([84, 84], 
-                             interpolation=InterpolationMode.NEAREST), 
+                    T.Resize([84, 84], interpolation=InterpolationMode.NEAREST), 
                     T.ToTensor()])
 screen = resize(env.render(mode='rgb_array'))
 
@@ -111,12 +90,10 @@ memory = ReplayMemory(10000)
 
 steps_done = 0
 
-
 def select_action(state):
     global steps_done
     sample = random.random()
-    eps_threshold = EPS_END + (EPS_START - EPS_END) * math.exp(-1.0 * 
-                                                               steps_done / EPS_DECAY)
+    eps_threshold = EPS_END + (EPS_START - EPS_END) * math.exp(-1.0 * steps_done / EPS_DECAY)
     steps_done += 1
     if sample > eps_threshold:
         with torch.no_grad():
@@ -136,12 +113,10 @@ def optimize_model():
     transitions = memory.sample(BATCH_SIZE)
     batch = Transition(*zip(*transitions))
 
-    non_final_mask = torch.tensor(tuple(map(lambda s: s is not None, 
-                                            batch.next_state)),
+    non_final_mask = torch.tensor(tuple(map(lambda s: s is not None, batch.next_state)),
                                   device=device,
                                   dtype=torch.bool,)
-    non_final_next_states = torch.cat(
-        [s for s in batch.next_state if s is not None])
+    non_final_next_states = torch.cat([s for s in batch.next_state if s is not None])
     state_batch = torch.cat(batch.state)
     action_batch = torch.cat(batch.action)
     reward_batch = torch.cat(batch.reward)
@@ -154,8 +129,7 @@ def optimize_model():
 
     expected_state_action_values = (next_state_values * GAMMA) + reward_batch
 
-    loss = F.smooth_l1_loss(
-        state_action_values, expected_state_action_values.unsqueeze(1))
+    loss = F.smooth_l1_loss(state_action_values, expected_state_action_values.unsqueeze(1))
     
     optimizer.zero_grad()
     loss.backward()
@@ -194,6 +168,5 @@ for i_episode in range(num_episodes):
     if i_episode % TARGET_UPDATE == 0:
         target_net.load_state_dict(policy_net.state_dict())
 
-print("Complete")
 env.render()
 env.close()
